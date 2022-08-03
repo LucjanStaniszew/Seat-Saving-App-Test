@@ -1,0 +1,20 @@
+button{
+    border: transparent;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.available{
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px 10px 10px 10px;
+}
+
+.selected{
+    border-radius: 15px;
+    border: green;
+    background-color: green;
+    color: white;
+    margin: 10px 10px 10px 10px
+}
