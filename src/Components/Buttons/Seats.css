@@ -1,0 +1,21 @@
+button{
+    border: transparent;
+    background-color: transparent;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.availableSeat{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 30px;
+}
+
+.selectedSeat{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 30px;
+}
