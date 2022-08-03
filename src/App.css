@@ -40,3 +40,11 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 600px){
+  .App{
+    background-image: url('../public/Assets/backMobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
