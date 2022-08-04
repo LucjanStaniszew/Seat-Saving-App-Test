@@ -44,11 +44,11 @@ const seats = [
   {id:17 , seat:"17"}
 ]
 
-function get2dg(num) {
+const get2dg = (num) => {
   return num.toString().padStart(2, "0")
 }
 
-function dateFormat(date) {
+const dateFormat = (date) => {
   return [
     date.getFullYear(),
     get2dg(date.getMonth() + 1),
