@@ -128,7 +128,7 @@ const Main = () => {
 
             {/* PAGO DE LA RESERVA */}
 
-          <a href="" className='mpago'>
+          <a href="http://localhost:8080" className='mpago'>
             <img src="./Assets/MPLogo.png" alt="Mercado Pago" className='mplogo' />
           </a>
         </div>
