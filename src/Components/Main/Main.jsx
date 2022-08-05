@@ -95,6 +95,23 @@ const Main = () => {
             {/* SELECCIÓN DE HORARIO */}
 
             <section className='hours'>
+              <select name="time" onChange={(e) => handleChange(e)}>
+                <option value= "" hidden name="time">Seleccionar Horario:</option>
+                {
+                  hours?.map((h) => (
+                    <option id={h.id} value={h.hour}>{h.hour}</option>
+                  ))
+                }
+              </select>
+              {/* {
+                hours?.map((h) => (
+                  <button className='black' onClick={(e) => handleChange(e)}>
+                    <Times id={h.id} hour={h.hour} name="time" value={h.hour}/>
+                  </button>
+                ))
+              } */}
+            </section>
+            {/* <section className='hours'>
               {
                 hours?.map((h) => (
                   <button className='black' onClick={(e) => handleChange(e)}>
@@ -102,7 +119,7 @@ const Main = () => {
                   </button>
                 ))
               }
-            </section>
+            </section> */}
           </div>
 
           <div className="right">
